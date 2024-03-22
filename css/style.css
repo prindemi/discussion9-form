@@ -28,6 +28,8 @@
     font-weight: bold;
     background: #CFC096;
     color: #9B9A6D;
+    /* color-contrast(wheat vs tan, sienna, #d2691e);
+    color-contrast(#008080 vs olive, var(--myColor), #d2691e); */
   }
 
   #message {
@@ -40,7 +42,6 @@
   textarea {
     padding: 10px;
     border: 1px solid #ccc;
-    width: 100%;
   }
 
   input[type="submit"] {
